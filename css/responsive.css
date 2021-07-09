@@ -1,0 +1,217 @@
+@media(max-width:1199px){
+
+ .container{
+    max-width: 900px;
+}
+
+.project{
+    left:-172px;
+    padding-left:65px;
+    padding-top:66px;
+    width: 36%;
+    padding-top:49px;
+    bottom:-130px;
+}
+
+.team{
+ 
+    width: 210px;
+}
+.earth{
+    bottom:0;
+    left:28px;
+}
+
+}
+@media(max-width:991px){
+    .company{
+        margin-left:12px;
+        width: 370px;
+    }
+    .container{
+        max-width: 700px;
+    }
+    .product{
+        font-size: 41px;
+        width: 336px;
+     
+    }
+    .project{
+        padding-left:52px;
+    }
+    .creat .row{
+        justify-content: center;
+    }
+    .team{
+        margin-right:20px;
+    }
+
+}
+@media(max-width:767px){
+    .nav{
+        display: none;
+    }
+    .container{
+        max-width: 500px;
+    }
+    .main-toggle{
+        display: block;
+        height: 25px;
+        background: transparent;
+        border:none;
+        
+    }
+    
+    .immersive{
+      width: 100%;
+      font-size: 65px;
+
+    }
+    .interactive{
+    flex-direction: column;
+    align-items: center;
+    }
+    .main-article{
+        padding-top:110px;
+        padding-bottom:160px;
+    }
+    .project{
+    
+        padding-top:0;
+        bottom: -96px;
+    }
+    .all-container{
+        position: relative;
+        
+    }
+    .all{
+        position: absolute;
+        bottom:-71px;
+        left:154px;
+    }
+    .company{
+        margin-left:0;
+    }
+    .container{
+        padding:0;
+    }
+    .leader{
+        width: 100%;
+    }
+    .creation{
+        font-size: 33px;
+        
+    }
+    .earth{
+        width: 106px;
+    }
+    .all{
+        padding:13px 39px 13px 39px;
+    }
+    .column4{
+        width: 48%;
+    }
+    .creat{
+        padding-bottom:119px;
+    }
+    .team{
+        margin-right:0;
+    }
+    .media{
+       
+        justify-content: center;
+        margin:0;
+    }
+    
+    .main-footer .row{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .footer-icon{
+        display: inline-block;
+        text-align: center;
+        margin-top:43px;
+    }
+
+}
+@media(max-width:565px){
+    .immersive{
+        font-size: 53px;
+        padding:16px;
+    }
+    .main-article{
+        padding-bottom:134px;
+    }
+    .creat .column4{
+      
+        width: 327px;
+        object-fit: cover;
+        object-position: center;
+
+    }
+    .container{
+        max-width: 400px;
+    }
+    .team{
+         height: 120px;
+        width: 100%;
+    }
+    .all-container{
+        position: relative;
+        
+    }
+    .all{
+        position: absolute;
+        bottom:-71px;
+        left:132px;
+    }
+    .media{
+        justify-content: center;
+        margin-bottom:0;
+    }
+    .earth{
+        font-size: 24px;
+        line-height: 24px;
+        width: 123px;
+    
+    }
+    .project{
+        padding-left:78px;
+    }
+
+}
+@media(max-width:480px){
+    .container{
+        max-width: 275px;
+    }
+    .immersive{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .product{
+        font-size: 32px;
+        text-align: center;
+        width: 286px;
+    }
+    .company{
+        text-align: center;
+        width: 289px;
+
+    }
+    .all{
+        left:62px;
+    }
+    .team{
+        object-fit: cover;
+
+    }
+    .flink{
+        display: block;
+        margin-bottom:16px;
+    }
+    .flink:not(:last-child){
+        margin-right:0;
+    }
+   
+}

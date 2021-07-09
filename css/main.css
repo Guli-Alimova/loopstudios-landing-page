@@ -9,7 +9,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 .container{
-    width: 1112px;
+    max-width: 1110px;
     margin:0 auto;
 }
 .row{
@@ -103,6 +103,24 @@ body{
     padding-top:96px;
     padding-left:96px;
 }
+.link:hover::after{
+    transform: scaleX(1);
+}
+.link::after{
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    margin-top:30px;
+    margin-left:-31px;
+    transition: transform 0.5s ease-in-out;
+    transform: scaleX(0);
+}
+.main-toggle{
+    display: none;
+}
+
 /* ==============================
   SECTION3
 ================================*/
@@ -150,9 +168,22 @@ body{
     line-height: 32px;
     color: white;
     
-
+}
+.all:hover{
+    background-color: black;
+    color:white;
 
 }
+.team:hover{
+    opacity: 0.5;
+     
+}
+
+
+.team:hover ~ .earth{
+    color: black ;
+}
+
 /* ===========================
   FOOTER
 ================================*/
@@ -174,7 +205,7 @@ body{
     margin-top:24px;
 }
 .flink{
-    margin-right:32px;
+   
     text-decoration: none;
     color: white;
     font-family:'Alata', sans-serif;
@@ -183,14 +214,51 @@ body{
     line-height: 25px;
 
 }
-.flink:nth-child(5){
-    margin-right:0;
+.flink:not(:last-child){
+     margin-right:32px;
 }
 .ficon{
     margin-right:16px;
     text-decoration: none;
     color: white;
 }
-.ficon:nth-child(4){
-    margin-right:0;
+.ficon:not(:last-child){
+    margin-right:16px;
+   
 }
+ .flink:hover:before{
+   
+ transform: scaleX(1);
+  
+}
+
+.flink::before{
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    margin-top:30px;
+    margin-left:11px;
+    transition: transform 0.5s ease-in-out;
+    transform: scaleX(0);
+    
+}
+.ficon:hover:before{
+   
+    transform: scaleX(1);
+     
+   }
+.ficon::before{
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    margin-top:30px;
+    margin-left:-1px;
+    transition: transform 0.5s ease-in-out;
+    transform: scaleX(0);
+   
+}
+
